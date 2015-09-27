@@ -1,0 +1,155 @@
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/**
+ * Basic styling
+ */
+body {
+    background: url(../images/grid/grid.png);
+    background-attachment: fixed;
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    font-weight: 300;
+    color: $text-color;
+    background-color: $background-color;
+    -webkit-text-size-adjust: 100%;
+}
+
+header.row.site-header {
+    background-color: black;
+    color: white;
+    padding: 15px 0 0 15px;
+    box-shadow: 0 0 5px rgba(0,0,0,.5);
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.list {
+    margin-top: 75px;
+}
+
+.row.albums {
+    border-bottom: 5px solid black;
+    margin: 25px 0;
+    padding: 25px 0;
+}
+
+
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+    margin-bottom: $spacing-unit / 2;
+}
+
+.album-details {
+    p, ul, ol {
+        font-size: 14px;
+    }
+}
+
+
+/**
+ * Images
+ */
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.card-panel {
+    padding: 8px;
+}
+
+
+
+/**
+ * Figures
+ */
+figure > img {
+    display: block;
+}
+
+figcaption {
+    font-size: $small-font-size;
+}
+
+
+
+/**
+ * Lists
+ */
+ul, ol {
+    margin-left: $spacing-unit;
+}
+
+li {
+    > ul,
+    > ol {
+         margin-bottom: 0;
+    }
+}
+
+
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 900;
+}
+
+.site-header {
+    h1 {
+        font-weight: 900;
+        font-size: 1.5em;
+        text-transform: uppercase;
+    }
+}
+
+h2 {
+    font-size: 1.25em;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 1.75em;
+    margin-bottom: 5px;
+}
+
+
+
+/**
+ * Links
+ */
+a {
+    color: #ff1744;
+    font-weight: 900;
+    text-decoration: none;
+
+    &:visited {
+        color: darken(#ff1744, 15%);
+    }
+
+    &:hover {
+        color: #ff1744;
+        border-bottom: 2px solid #ff1744;
+    }
+}
+
