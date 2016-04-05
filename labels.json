@@ -1,0 +1,86 @@
+[
+  {
+    "name": "0 - Backlog",
+    "color": "CCCCCC"
+  },
+  {
+    "name": "1 - Ready",
+    "color": "CCCCCC"
+  },
+  {
+    "name": "2 - Working <= 5",
+    "color": "CCCCCC"
+  },
+  {
+    "name": "3 - Review",
+    "color": "CCCCCC"
+  },
+  {
+    "name": "4 - Done",
+    "color": "CCCCCC"
+  },
+  {
+    "name": "bug",
+    "color": "fc2929"
+  },
+  {
+    "name": "content",
+    "color": "fbca04"
+  },
+  {
+    "name": "design",
+    "color": "eb6420"
+  },
+  {
+    "name": "development",
+    "color": "0052cc"
+  },
+  {
+    "name": "duplicate",
+    "color": "cccccc"
+  },
+  {
+    "name": "enhancement",
+    "color": "84b6eb"
+  },
+  {
+    "name": "help wanted",
+    "color": "159818"
+  },
+  {
+    "name": "invalid",
+    "color": "e6e6e6"
+  },
+  {
+    "name": "L",
+    "color": "000000"
+  },
+  {
+    "name": "M",
+    "color": "000000"
+  },
+  {
+    "name": "p1",
+    "color": "5319e7"
+  },
+  {
+    "name": "question",
+    "color": "cc317c"
+  },
+  {
+    "name": "S",
+    "color": "000000"
+  },
+  {
+    "name": "wontfix",
+    "color": "ffffff"
+  },
+  {
+    "name": "XL",
+    "color": "000000"
+  },
+  {
+    "name": "XS",
+    "color": "000000"
+  }
+]
